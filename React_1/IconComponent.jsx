@@ -5,7 +5,7 @@ const IconComponent = () => {
   return (
     <div>
       <h1>The Beer icon</h1>
-      <FaBeer color="gold" size={30} />
+      <FaBeer color="gold" size={40} />
     </div>
   );
 };
