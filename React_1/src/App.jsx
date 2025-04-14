@@ -1,17 +1,7 @@
-import React from 'react'
-import Greet from './components/Greet'
-import MainContent from './components/MainContent'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import React from "react";
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default App
+export default App;
