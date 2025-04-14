@@ -1,14 +1,14 @@
 import React from "react";
-import Weather from "./components/Weather.jsx";
-import UserStatus from "./components/UserStatus.jsx";
-import Presentation from "./components/Presentation.jsx";
+import StyleCard from "./components/StyleCard.jsx";
+import ProfileCard from "./components/ProfileCard.jsx";
+import IconComponent from "../IconComponent.jsx";
 
 const App = () => {
   return (
     <div>
-      <Weather temperature={30} />
-      <UserStatus loggedIn={true} isAdmin={true} />
-      <Presentation timeOfDay="morning" />
+      <StyleCard />
+      <ProfileCard />
+      <IconComponent />
     </div>
   );
 };
