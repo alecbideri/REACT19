@@ -1,11 +1,10 @@
 import React from "react";
-
-import ShoppingList from "./components/ShoppingList.jsx";
+import NameAdd from "./components/NameAdd.jsx";
 
 const App = () => {
   return (
     <div>
-      <ShoppingList />
+      <NameAdd />
     </div>
   );
 };
