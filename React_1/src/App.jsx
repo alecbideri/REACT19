@@ -1,11 +1,10 @@
 import React from "react";
-
-import State from "./components/State.jsx";
+import Friends from "./components/Friends.jsx";
 
 const App = () => {
   return (
     <div>
-      <State />
+      <Friends />
     </div>
   );
 };
