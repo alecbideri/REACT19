@@ -1,10 +1,11 @@
 import React from "react";
-import Profilees from "./components/Profilees.jsx";
+
+import ShoppingList from "./components/ShoppingList.jsx";
 
 const App = () => {
   return (
     <div>
-      <Profilees />
+      <ShoppingList />
     </div>
   );
 };
