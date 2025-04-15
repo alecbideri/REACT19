@@ -1,10 +1,11 @@
 import React from "react";
-import Friends from "./components/Friends.jsx";
+
+import TodoList from "./components/TodoList.jsx";
 
 const App = () => {
   return (
     <div>
-      <Friends />
+      <TodoList />
     </div>
   );
 };
