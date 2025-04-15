@@ -1,14 +1,11 @@
 import React from "react";
-import StyleCard from "./components/StyleCard.jsx";
-import ProfileCard from "./components/ProfileCard.jsx";
-import IconComponent from "../IconComponent.jsx";
+
+import State from "./components/State.jsx";
 
 const App = () => {
   return (
     <div>
-      <StyleCard />
-      <ProfileCard />
-      <IconComponent />
+      <State />
     </div>
   );
 };
