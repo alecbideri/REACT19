@@ -1,11 +1,10 @@
 import React from "react";
-
-import TodoList from "./components/TodoList.jsx";
+import Profilees from "./components/Profilees.jsx";
 
 const App = () => {
   return (
     <div>
-      <TodoList />
+      <Profilees />
     </div>
   );
 };
