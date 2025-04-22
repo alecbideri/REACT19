@@ -1,4 +1,5 @@
 import React from "react";
+import ClipBoard from "./ClipBoard.jsx";
 
 const CopyInput = () => {
   const [inputValue, setInputValue] = React.useState("");
@@ -23,7 +24,7 @@ const CopyInput = () => {
 
       {/*  Pass in the copied value after being evaluated to true*/}
 
-      <Clipboard copied={copied} />
+      <ClipBoard copied={copied} />
     </div>
   );
 };
