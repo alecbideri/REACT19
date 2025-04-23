@@ -1,10 +1,10 @@
 import React from "react";
-import BasicEffect from "./components/BasicEffect.jsx";
+import CounterEffect from "./components/CounterEffect.jsx";
 
 const App = () => {
   return (
     <div>
-      <BasicEffect />
+      <CounterEffect />
     </div>
   );
 };
