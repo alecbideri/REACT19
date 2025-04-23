@@ -1,10 +1,10 @@
 import React from "react";
-import CounterEffect from "./components/CounterEffect.jsx";
+import UserContext from "./components/exercises/UserContext.jsx";
 
 const App = () => {
   return (
     <div>
-      <CounterEffect />
+      <UserContext />
     </div>
   );
 };
